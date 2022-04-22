@@ -1,0 +1,19 @@
+.marker__list {
+    margin-left: 20px;
+}
+
+.marker__item {
+    position: relative;
+}
+
+.marker__item:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    background-size: 15px 15px;
+    background-image: url(../img/Marker-png.png)
+}

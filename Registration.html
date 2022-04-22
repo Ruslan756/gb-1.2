@@ -83,24 +83,29 @@
             </ul>
         </div>
     </header>
-    <section class="registration__top">REGISTRATION</section>
-    <section class="registration__main">
+    <section class="registration">
+        <section class="registration__top container">
+            <p class="registration__text">REGISTRATION</p>
+        </section>
+    </section>
+    <section class="registration__main container">
         <form class="registration__form" action="#">
-            <fieldset>
-                <legend>Your Name</legend>
-                <label for="text"><input type="text" placeholder="First Name"></label>
-                <input type="text" placeholder="Last Name">
+            <fieldset class="registration__name">
+                <legend class="registration-margin">Your Name</legend>
+                <label for="text">
+                    <input class="registration-margin" type="text" placeholder="First Name"></label>
+                <input class="registration-margin" type="text" placeholder="Last Name">
             </fieldset>
-            <div>
+            <div class="registration__radio">
                 <input type="radio" id="contactChoice1" name="contact" value="Male">
                 <label for="contactChoice1">Male</label>
                 <input type="radio" id="contactChoice2" name="contact" value="Female">
                 <label for="contactChoice2">Female</label>
             </div>
-            <fieldset>
-                <legend>Login details</legend>
-                <input type="email" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
+            <fieldset class="registration__email">
+                <legend class="registration-margin">Login details</legend>
+                <input class="registration-margin" type="email" placeholder="Email" required>
+                <input class="registration-margin" type="password" placeholder="Password" required>
             </fieldset>
             <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters
             </p>

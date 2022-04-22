@@ -1,0 +1,57 @@
+.registration {
+    background: $pink-bkg;
+}
+
+.registration__top {
+    display: flex;
+    align-items: center;
+    min-height: 148px;
+}
+
+.registration__text {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $pink-color;
+}
+
+.registration__main {
+    display: flex;
+    justify-content: space-between;
+    min-height: 675px;
+}
+
+.registration__form {
+    display: flex;
+    max-width: 360px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registration__name {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__email {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration__radio {
+    margin: 31px 0;
+}
+
+.registration-margin {
+    margin-bottom: 20px;
+}
+
+.registration__marker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 652px;
+}

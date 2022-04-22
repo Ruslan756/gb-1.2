@@ -1,0 +1,133 @@
+.footer__form {
+    min-height: 448px;
+    background-image: url(../img/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    display: flex;
+    align-items: center;
+}
+
+.footer__list-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item-form {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__item-form_form {
+    max-width: 557px;
+}
+
+.footer__text-icon {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer__text-form {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-input {
+    margin-top: 32px;
+}
+
+.footer__input {
+    height: 49px;
+    width: 223px;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #E1E1E1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    border: none;
+}
+
+.footer__input-rights {
+    height: 49px;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #F16D7F;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+
+}
+
+
+
+.footer__list-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    align-self: center;
+}
+
+.footer__text-bottom {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FBFBFB;
+
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+}
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    background-color: $black-bkg;
+    min-height: 79px;
+}
+
+.footer__item_bottom {
+    margin-right: 8px;
+}
+
+.footer__link {
+    background: white;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.footer__link:hover {
+    background: #F16D7F;
+}
+
+.footer__link:hover svg {
+    fill: #FBFBFB;
+}

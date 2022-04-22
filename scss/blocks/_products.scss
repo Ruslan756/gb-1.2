@@ -1,0 +1,135 @@
+.products {
+    margin-top: 97px;
+    margin-bottom: 95px;
+}
+
+.products__title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.products__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.products__sub-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.products__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products__list {
+    max-width: 360px;
+    height: 581px;
+}
+
+.products__item {
+    position: relative;
+}
+
+.button-card {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.products-overlay:before {
+    content: '';
+    width: 100%;
+    min-height: 420px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+}
+
+.products-overlay,
+.button-card {
+    display: none;
+    background-color: transparent;
+}
+
+.button-card__products {
+    height: 43px;
+    width: 138px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.products__item:hover .button-card,
+.products__item:hover .products-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.products__item-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.products__item-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.products__item-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.products__item-title_margin {
+    margin: 25px 0 12px 18px;
+}
+
+.products__item-text_margin {
+    margin: 0 0 18px 18px;
+}
+
+.products__item-price_margin {
+    margin: 0 0 0 18px;
+}
+
+.products__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.products__send {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #F26376;
+    height: 47px;
+    width: 211px;
+    border: 1px solid #FF6A6A;
+    background-color: #FFFFFF;
+}
+
+.products__send_hover:hover {
+    background: #f16d7f;
+    color: #FFFFFF;
+}
