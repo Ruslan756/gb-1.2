@@ -75,3 +75,9 @@
     line-height: 17px;
     text-transform: uppercase;
 }
+
+@media (max-width: $mobile-width) {
+    .header__link {
+        display: none;
+    }
+}

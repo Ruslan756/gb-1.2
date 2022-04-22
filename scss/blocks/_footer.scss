@@ -82,8 +82,6 @@
 
 }
 
-
-
 .footer__list-bottom {
     display: flex;
     justify-content: space-between;
@@ -130,4 +128,33 @@
 
 .footer__link:hover svg {
     fill: #FBFBFB;
+}
+
+@media (max-width: $desktop-mid-width) {
+    .container {
+        width: 92%;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .footer__list-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .footer__list-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__copyright {
+        margin-top: 40px;
+    }
+
+    .footer__list-bottom {
+        padding: 43px 0 10px 0;
+    }
 }
