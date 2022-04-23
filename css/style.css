@@ -344,6 +344,23 @@ body {
   justify-content: space-between;
 }
 
+.product__collection {
+  height: 601px;
+  width: 1141px;
+  margin-top: -40px;
+  z-index: 1;
+  position: relative;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__text {
+  text-align: center;
+}
+
 .products__list {
   max-width: 360px;
   height: 581px;
