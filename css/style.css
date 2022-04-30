@@ -20,8 +20,20 @@ body {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
+}
+
+@media (max-width: 1599px) {
+  .container {
+    width: 92%;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 97%;
+  }
 }
 
 ::-webkit-input-placeholder {
@@ -117,6 +129,12 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 376px) {
+  .header__link {
+    display: none;
+  }
+}
+
 .nav-item__title {
   color: #F16D7F;
   text-transform: uppercase;
@@ -141,7 +159,7 @@ body {
 
 .brand__img {
   height: 765px;
-  width: 800px;
+  width: 50%;
 }
 
 .brand__title-wrp {
@@ -170,6 +188,50 @@ body {
   color: #F16D7F;
 }
 
+@media (max-width: 1599px) {
+  .brand__img {
+    height: 100%;
+  }
+  .brand__title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 52px;
+    max-width: 283px;
+  }
+  .brand__title-lower {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 770px) {
+  .brand__img {
+    height: 370px;
+  }
+  .brand__title-wrp {
+    min-height: 363px;
+    padding: 0 0 0 40px;
+  }
+}
+
+@media (max-width: 376px) {
+  .brand__img {
+    display: none;
+  }
+  .brand__title {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 46px;
+    width: 283px;
+  }
+  .brand__title-lower {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
 .sales {
   margin-top: 63px;
 }
@@ -183,7 +245,7 @@ body {
 .sales__item {
   height: 260px;
   width: 360px;
-  background-color: var(--sales-bkg);
+  background-color: #453E3D;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -220,8 +282,35 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
-  color: var(--sales-text-bkg);
+  color: #F16D7F;
   text-transform: uppercase;
+}
+
+@media (max-width: 770px) {
+  .sales__item {
+    width: 33%;
+    height: 167px;
+    background-size: cover;
+  }
+  .sales__item--shoes {
+    width: 100%;
+    max-height: 116px;
+  }
+}
+
+@media (max-width: 376px) {
+  .sales__item {
+    height: 247px;
+    width: 343px;
+    margin-bottom: 32px;
+    background-size: cover;
+  }
+  .sales__item--shoes {
+    margin: 0 0 0 0;
+  }
+  .sales__list {
+    justify-content: center;
+  }
 }
 
 .products {
@@ -253,6 +342,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.product__collection {
+  height: 601px;
+  width: 1141px;
+  margin-top: -40px;
+  z-index: 1;
+  position: relative;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__text {
+  text-align: center;
 }
 
 .products__list {
@@ -392,6 +498,14 @@ body {
   text-align: center;
 }
 
+@media (max-width: 770px) {
+  .additional__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .footer__form {
   min-height: 448px;
   background-image: url(../img/form.jpg);
@@ -522,6 +636,33 @@ body {
   fill: #FBFBFB;
 }
 
+@media (max-width: 2560px) {
+  .container {
+    width: 92%;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer__list-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 376px) {
+  .footer__list-bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footer__copyright {
+    margin-top: 40px;
+  }
+  .footer__list-bottom {
+    padding: 43px 0 10px 0;
+  }
+}
+
 .marker__list {
   margin-left: 20px;
 }
@@ -573,6 +714,14 @@ body {
   line-height: 17px;
   color: #FBFBFB;
   text-align: center;
+}
+
+@media (max-width: 770px) {
+  .additional__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .registration {
