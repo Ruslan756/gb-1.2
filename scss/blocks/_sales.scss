@@ -53,6 +53,12 @@
     text-transform: uppercase;
 }
 
+@media (max-width: $desktop-width) {
+    .sales__item {
+        width: 32%;
+    }
+}
+
 @media (max-width: $tablet-width) {
     .sales__item {
         width: 33%;

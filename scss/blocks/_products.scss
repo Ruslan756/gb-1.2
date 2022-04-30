@@ -150,3 +150,9 @@
     background: #f16d7f;
     color: #FFFFFF;
 }
+
+@media (max-width: $tablet-width) {
+    .products__card {
+        justify-content: center;
+    }
+}
